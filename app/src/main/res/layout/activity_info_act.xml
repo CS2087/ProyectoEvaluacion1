@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Info_act">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="355dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="207dp"
+            android:layout_height="133dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/info" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginRight="20dp"
+            android:text="Bienvenidos a la aplicación de By 2020 dónde vamos a representar información acerca de nuestros productos y Asociados donde queremos implementar una aplicación básica de calificación y calcular productos y sus envíos a bajo coste además de gestionar la información y saldos asociados al cliente para poder pagar bajo distintos medios de pago." />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
